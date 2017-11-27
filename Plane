@@ -1,0 +1,21 @@
+
+public class Plane {
+	private String flightNumber, destination;
+	
+	public Plane(String flightNumber, String destination){
+		this.flightNumber = flightNumber;
+		this.destination = destination;
+	}
+	
+	public String getFlightNumber(){
+		return flightNumber;
+	}
+	
+	public String getDestination(){
+		return destination;
+	}
+	
+	public String toString(){
+		return "Flight " + flightNumber + " to " + destination + " .";
+	}
+}
